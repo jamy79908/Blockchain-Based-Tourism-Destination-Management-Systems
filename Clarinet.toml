@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/resource-allocation.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.tourism-board-verification]
+path = 'contracts/tourism-board-verification.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
